@@ -1,0 +1,12 @@
+name = "cfr2-github-webdav" # 随便起个名，记住它
+main = "src/index.ts"
+compatibility_date = "2023-01-01"
+
+[vars]
+USERNAME = "admin"
+PASSWORD = "123456"
+BUCKET_NAME = "webdev"
+
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "webdev" # 必须是你真实的 R2 桶名
