@@ -1,4 +1,4 @@
-name = "cfr2-github-webdav" # 随便起个名，记住它
+name = "cfr2-webdav-2" # 随便起个名，记住它
 main = "src/index.ts"
 compatibility_date = "2023-01-01"
 
